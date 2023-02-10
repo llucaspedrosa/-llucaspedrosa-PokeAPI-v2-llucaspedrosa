@@ -15,7 +15,7 @@
 
 <style scoped>
 header {
-  background-color: #002efd;
+  background-color: var(--color-primary);
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   position: relative;
@@ -34,14 +34,14 @@ header {
   width: 190px;
   height: 150px;
   position: absolute;
-  top: 55px;
+  top: 32px;
   display: flex;
-  left: 50%;
+  left: 55%;
   z-index: 1;
 }
 @media (max-width: 768px) {
   header {
-    background-color: #002efd;
+    background-color: var(--color-primary);
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     position: relative;
@@ -59,9 +59,9 @@ header {
     width: 190px;
     height: 150px;
     position: absolute;
-    top: 55px;
-    display: flex;
-    left: 50%;
+    top: 32px;
+  display: flex;
+  left: 55%;
     z-index: 1;
   }
 }

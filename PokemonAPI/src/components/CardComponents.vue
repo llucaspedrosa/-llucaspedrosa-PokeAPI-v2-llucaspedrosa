@@ -141,6 +141,7 @@
   </section>
 </template>
 <style scoped>
+
 ul {
   width: 80%;
   height: 73vh;
@@ -160,7 +161,7 @@ ul::-webkit-scrollbar {
   width: 10px;
 }
 ul::-webkit-scrollbar-thumb {
-  background-color: rgb(255, 211, 17);
+  background-color:var(--color-Yellow);
   border-radius: 5px;
 }
 ul::-webkit-scrollbar-track {
@@ -169,18 +170,18 @@ ul::-webkit-scrollbar-track {
 li {
   width: 200px;
   height: 270px;
-  background-color: #49d0b0;
+  background-color: var(--color-secondary);
   border-radius: 30px;
 }
 .cardStatistics {
-  background-color: #49d0b0;
+  background-color: var(--color-secondary);
   border-radius: 30px;
   width: 100%;
   height: 50%;
   padding: 20px;
 }
 .cardProfile {
-  background-color: #ffffff;
+  background-color: var(--color-Grey-0);
   border-radius: 30px;
   width: 100%;
   height: 50%;
@@ -188,13 +189,13 @@ li {
   align-items: flex-end;
 }
 .namePokemon {
-  color: #ffffff;
+  color: var(--color-Grey-0);;
   font-weight: 700;
-  font-size: 18px;
+  font-size: var(--heading-1);
 }
 .orderPokemon {
-  color: #ffffff;
-  font-size: 12px;
+  color: var(--color-Grey-0);
+  font-size:  var(--heading-2);
   padding: 7px;
 }
 .displayNameOrder {
@@ -202,9 +203,9 @@ li {
   justify-content: space-between;
 }
 .typePokemon {
-  font-size: 12px;
-  color: #ffffff;
-  background-color: #63e0c9;
+  font-size: var(--heading-2);
+  color: var(--color-Grey-0);
+  background-color: var(--color-secondary-50);
   border-radius: 10px;
   padding: 1px 10px;
 }
@@ -220,10 +221,10 @@ img {
 }
 button {
   width: 90%;
-  background-color: #63e0c9;
+  background-color: var(--color-secondary-50);
   padding: 10px;
   border-radius: 20px;
-  color: #ffffff;
+  color: var(--color-Grey-0);
   margin: 0 auto;
   margin-bottom: 10px;
 }
@@ -246,7 +247,7 @@ button {
     width: 10px;
   }
   ul::-webkit-scrollbar-thumb {
-    background-color: rgb(255, 211, 17);
+    background-color: var(--color-Yellow);
     border-radius: 5px;
   }
   ul::-webkit-scrollbar-track {
@@ -255,18 +256,18 @@ button {
   li {
     width: 200px;
     height: 270px;
-    background-color: #49d0b0;
+    background-color: var(--color-secondary);
     border-radius: 30px;
   }
   .cardStatistics {
-    background-color: #49d0b0;
+    background-color: var(--color-secondary);
     border-radius: 30px;
     width: 100%;
     height: 50%;
     padding: 20px;
   }
   .cardProfile {
-    background-color: #ffffff;
+    background-color: var(--color-Grey-0);
     border-radius: 30px;
     width: 100%;
     height: 50%;
@@ -274,13 +275,13 @@ button {
     align-items: flex-end;
   }
   .namePokemon {
-    color: #ffffff;
+    color: var(--color-Grey-0);
     font-weight: 700;
-    font-size: 18px;
+    font-size: var(--heading-1);
   }
   .orderPokemon {
-    color: #ffffff;
-    font-size: 12px;
+    color: var(--color-Grey-0);
+    font-size: var(--heading-2);
     padding: 7px;
   }
   .displayNameOrder {
@@ -288,9 +289,9 @@ button {
     justify-content: space-between;
   }
   .typePokemon {
-    font-size: 12px;
-    color: #ffffff;
-    background-color: #63e0c9;
+    font-size: var(--heading-2);
+    color: var(--color-Grey-0);
+    background-color: var(--color-secondary-50);
     border-radius: 10px;
     padding: 1px 10px;
   }
@@ -306,10 +307,10 @@ button {
   }
   button {
     width: 90%;
-    background-color: #63e0c9;
+    background-color: var(--color-secondary-50);
     padding: 10px;
     border-radius: 20px;
-    color: #ffffff;
+    color: var(--color-Grey-0);
     margin: 0 auto;
     margin-bottom: 10px;
   }
