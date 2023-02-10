@@ -49,6 +49,7 @@ template {
   --color-Grey-20: #e0e0e0;
   --color-Grey-0: #ffffff;
   --color-Yellow: rgb(255, 211, 17);
+  --color-Background-Modal: rgba(51, 51, 51, 0.5);
 
 
   --heading-1: 18px;

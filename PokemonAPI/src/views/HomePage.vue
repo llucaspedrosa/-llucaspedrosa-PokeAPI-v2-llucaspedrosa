@@ -3,6 +3,7 @@
 import CardComponents from "../components/CardComponents.vue";
 import HeaderComponents from "../components/HeaderComponents.vue";
 import InputComponents from "../components/InputComponents.vue";
+import ModalComponents from "../components/ModalComponents.vue";
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import InputComponents from "../components/InputComponents.vue";
     <InputComponents />
     <CardComponents />
   </main>
+  <ModalComponents />
 </template>
 <style scoped>
 .container {
