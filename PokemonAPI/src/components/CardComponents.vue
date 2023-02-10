@@ -229,9 +229,10 @@ button {
   margin-bottom: 10px;
 }
 @media (max-width: 768px) {
+  
   ul {
     width: 80%;
-    height: 73vh;
+    height: 600px;
     position: relative;
     display: flex;
     margin: 0 auto;
