@@ -8,15 +8,15 @@
 label {
   display: flex;
   flex-direction: column;
-  font-size: 12px;
-  color: #999999;
+  font-size: var(--heading-2);
+  color: var(--color-Grey-50);
   z-index: 1;
   margin-top: 80px;
 }
 
 input {
-  background: #ffffff;
-  border: 2px solid #333333;
+  background: var( --color-Grey-0);
+  border: 2px solid var(--color-Grey-100);
   border-radius: 5px;
   width: 73%;
   padding: 15px;
@@ -28,14 +28,14 @@ input {
   label {
     display: flex;
     flex-direction: column;
-    font-size: 12px;
-    color: #999999;
+    font-size: var(--heading-2);
+    color: var(--color-Grey-50);
     z-index: 1;
     margin-top: 80px;
   }
 
   input {
-    background: #ffffff;
+    background: var(--color-Grey-0);
     border: 2px solid #333333;
     border-radius: 5px;
     

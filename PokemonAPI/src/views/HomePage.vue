@@ -7,14 +7,15 @@ import InputComponents from "../components/InputComponents.vue";
 
 <template>
   <HeaderComponents />
-  <main class="container"></main>
-  <InputComponents />
-  <CardComponents />
+  <main class="container">
+    <InputComponents />
+    <CardComponents />
+  </main>
 </template>
 <style scoped>
 .container {
   width: 100%;
-  height: 100%;
+  height: 90%;
   background-image: url("../assets/img/fundopoke.jpg");
   background-repeat: repeat-x;
   position: absolute;
@@ -23,6 +24,5 @@ import InputComponents from "../components/InputComponents.vue";
   background-size: contain;
   background-size: cover;
   min-width: 394px;
-  
 }
 </style>
