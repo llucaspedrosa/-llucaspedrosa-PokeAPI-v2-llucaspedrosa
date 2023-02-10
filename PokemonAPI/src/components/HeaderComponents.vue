@@ -1,4 +1,5 @@
 <template>
+
   <header>
     <img
       class="imgPokemonLogo"
@@ -11,6 +12,7 @@
       alt="Foto Pikachu"
     />
   </header>
+
 </template>
 
 <style scoped>
@@ -66,3 +68,4 @@ header {
   }
 }
 </style>
+
