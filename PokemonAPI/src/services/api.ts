@@ -1,6 +1,5 @@
 import axios from "axios";
-
 export const api = axios.create({
-    baseURL: "https://hamburgueria-kenzie-v2.herokuapp.com",
-    timeout:3000,
-})
+  baseURL: "https://pokeapi.co/api/v2",
+  timeout: 3000,
+});

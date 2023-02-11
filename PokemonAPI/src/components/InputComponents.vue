@@ -4,44 +4,4 @@
   </label>
 </template>
 
-<style scoped>
-label {
-  display: flex;
-  flex-direction: column;
-  font-size: var(--heading-2);
-  color: var(--color-Grey-50);
-  z-index: 1;
-  margin-top: 80px;
-}
-
-input {
-  background: var( --color-Grey-0);
-  border: 2px solid var(--color-Grey-100);
-  border-radius: 5px;
-  width: 73%;
-  padding: 15px;
-  margin: 0 auto;
-  z-index: 0;
-  min-width: 394px;
-}
-@media (max-width: 768px) {
-  label {
-    display: flex;
-    flex-direction: column;
-    font-size: var(--heading-2);
-    color: var(--color-Grey-50);
-    z-index: 1;
-    margin-top: 80px;
-  }
-
-  input {
-    background: var(--color-Grey-0);
-    border: 2px solid #333333;
-    border-radius: 5px;
-    
-    padding: 15px;
-    margin: 0 auto;
-    z-index: 0;
-  }
-}
-</style>
+<style src="./InputStyle.scss" lang="scss" ></style>
