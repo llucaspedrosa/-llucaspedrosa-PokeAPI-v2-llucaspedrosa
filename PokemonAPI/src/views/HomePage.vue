@@ -1,6 +1,5 @@
 <script setup lang="ts">
-// import ButtonComponents from "../components/ButtonComponents.vue";
-import CardComponents from "../components/CardComponents.vue";
+import CardComponents from "@/components/CardComponents.vue";
 import HeaderComponents from "../components/HeaderComponents.vue";
 import InputComponents from "../components/InputComponents.vue";
 import ModalComponents from "../components/ModalComponents.vue";
@@ -12,6 +11,7 @@ import ModalComponents from "../components/ModalComponents.vue";
     <InputComponents />
     <CardComponents />
   </main>
+
   <ModalComponents />
 </template>
 <style scoped>
@@ -28,3 +28,4 @@ import ModalComponents from "../components/ModalComponents.vue";
   min-width: 394px;
 }
 </style>
+<!-- https://github.com/llucaspedrosa -->

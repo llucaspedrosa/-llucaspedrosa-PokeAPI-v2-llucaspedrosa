@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import GlobalStyles from "./assets/GlobalStyles.css";
+import "./assets/GlobalStyle.scss";
 import { RouterView } from "vue-router";
 </script>
 
